@@ -1,6 +1,7 @@
 const express = require('express'),
     bodyParser = require('body-parser'),
     corse = require('cors'),
+    middleware = require('middleware')
     app = express(),
     port = 3000
 
@@ -11,6 +12,7 @@ const express = require('express'),
 
 
 
+    // ========== ENDPOINTS ========== //
 
 
 
